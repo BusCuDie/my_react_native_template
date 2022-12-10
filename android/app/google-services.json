@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "618372730956",
+    "project_id": "jconnect-b2c5d",
+    "storage_bucket": "jconnect-b2c5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618372730956:android:ea1b7b1488b6fd1207a4e9",
+        "android_client_info": {
+          "package_name": "com.jconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618372730956-ll25r28sr3nmbtki6qd0fq5oaqhrb3hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jconnect",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "618372730956-8fd9lcd1jmfkjegm4kdd826c7km0r41a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt3HcbC7rjIVga5lir--pCi0MNb2mjakc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618372730956-8fd9lcd1jmfkjegm4kdd826c7km0r41a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "618372730956-2pp1l6pah2p5m1m7164pqifotuuml7m3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.jconnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

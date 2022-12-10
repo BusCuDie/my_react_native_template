@@ -1,0 +1,31 @@
+{
+  "Next": "Next",
+  "Email": "Email",
+  "EnterEmailScreen": {
+    "EnterEmail": "Enter your email",
+    "LoginNow": "Login now !",
+    "EmailEmpty": "Email is empty",
+    "EmailInvalid": "Email is invalid"
+  },
+  "VerifyEmailScreen": {
+    "VerifyEmail": "Verify email",
+    "OTPSent": "OTP code is sent to"
+  },
+  "CreatePasswordScreen": {
+    "CreatePassword": "Create password",
+    "ReEnterPassword": "Re-enter password",
+    "NewPassword": "Create a new password",
+    "ReEntered": "Re-enter a new password",
+    "NotMatch": "The password not match",
+    "PasswordInvalid": "The password have at least one lower letter, upper letter, digit and 8 character"
+  },
+  "PopupSelectImage": {
+    "Title": "Select Image"
+  },
+
+  "Confirm": "Confirm",
+  "Verify": "Verify",
+  "Create": "Create",
+  "Password": "Password",
+  "Cancel": "Cancel"
+}
