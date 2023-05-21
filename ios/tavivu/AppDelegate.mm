@@ -39,7 +39,7 @@
   bridge.surfacePresenter = _bridgeAdapter.surfacePresenter;
 #endif
 
-  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"jconnect", nil);
+  UIView *rootView = RCTAppSetupDefaultRootView(bridge, @"tavivu", nil);
 
   if (@available(iOS 13.0, *)) {
     rootView.backgroundColor = [UIColor systemBackgroundColor];

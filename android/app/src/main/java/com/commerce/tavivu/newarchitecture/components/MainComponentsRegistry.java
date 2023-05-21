@@ -1,4 +1,4 @@
-package com.jconnect.newarchitecture.components;
+package com.commerce.tavivu.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

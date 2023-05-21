@@ -1,4 +1,4 @@
-package com.jconnect.newarchitecture;
+package com.commerce.tavivu.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.jconnect.BuildConfig;
-import com.jconnect.newarchitecture.components.MainComponentsRegistry;
-import com.jconnect.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.commerce.tavivu.BuildConfig;
+import com.commerce.tavivu.newarchitecture.components.MainComponentsRegistry;
+import com.commerce.tavivu.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

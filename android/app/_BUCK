@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.jconnect",
+    package = "com.commerce.tavivu",
 )
 
 android_resource(
     name = "res",
-    package = "com.jconnect",
+    package = "com.commerce.tavivu",
     res = "src/main/res",
 )
 

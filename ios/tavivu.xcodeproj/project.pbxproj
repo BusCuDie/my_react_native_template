@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* jconnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jconnectTests.m */; };
+		00E356F31AD99517003FC87E /* tavivuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tavivuTests.m */; };
 		0AFFD0B7077D4CDD8167A0C9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 251A12EAB4624CF6B0495351 /* Roboto-Light.ttf */; };
 		0D4CDFEC74354726A726C6E4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E9931B57834A868DA2A43C /* Roboto-MediumItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
@@ -16,9 +16,9 @@
 		34BBC6AE56FB4108AE2BA279 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4FA35FD06534E7EAB3662BA /* Roboto-Thin.ttf */; };
 		3545338B596249E7888C5D38 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9485084C500745DC92D9E422 /* Roboto-Italic.ttf */; };
 		36843FEE706C46E1ABDC19F7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF49E46F8AC9447A8FE3E340 /* Roboto-Regular.ttf */; };
-		3E21DE993266854818BF3142 /* libPods-jconnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EE0F5A14429AE3579952E6 /* libPods-jconnect.a */; };
+		3E21DE993266854818BF3142 /* libPods-tavivu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EE0F5A14429AE3579952E6 /* libPods-tavivu.a */; };
 		455C971F0CA1425CB2191FE5 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D5AF55ABE041EDAC609C45 /* Roboto-Black.ttf */; };
-		6A5FF2EEADDADE1C399A39A1 /* libPods-jconnect-jconnectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEA5212CF4414152F5399F /* libPods-jconnect-jconnectTests.a */; };
+		6A5FF2EEADDADE1C399A39A1 /* libPods-tavivu-tavivuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEA5212CF4414152F5399F /* libPods-tavivu-tavivuTests.a */; };
 		723C44EA998A4C02899D7D3C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E2D2929E943B29EE6F6F8 /* Roboto-ThinItalic.ttf */; };
 		74AA445FCDA54FACB7004D62 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 255B012FF32D455A9958E7BA /* Roboto-BoldItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -51,21 +51,21 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = jconnect;
+			remoteInfo = tavivu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00986BC3D0A24FD09BA33536 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* jconnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jconnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* tavivuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tavivuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* jconnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jconnectTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* jconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = jconnect/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = jconnect/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = jconnect/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = jconnect/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = jconnect/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* tavivuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tavivuTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* tavivu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tavivu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = tavivu/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = tavivu/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tavivu/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tavivu/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tavivu/main.m; sourceTree = "<group>"; };
 		18FB7C2E307243EC916CB9AC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		20816F8D65E048E39493F070 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		251A12EAB4624CF6B0495351 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -73,21 +73,21 @@
 		26F73FEF3D354F7599AC4DF2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		2FE25929D90F427FB8B1EDAF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		3AACACB1B13B4CF99E55A429 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-jconnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnect.debug.xcconfig"; path = "Target Support Files/Pods-jconnect/Pods-jconnect.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-tavivu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivu.debug.xcconfig"; path = "Target Support Files/Pods-tavivu/Pods-tavivu.debug.xcconfig"; sourceTree = "<group>"; };
 		3C9F41ED7A3A4D5BA819BFFD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		4083D08E62B44C5C82B21A1B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		431B1F9A4A764031B3829BD0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		52FEA5212CF4414152F5399F /* libPods-jconnect-jconnectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jconnect-jconnectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5709B34CF0A7D63546082F79 /* Pods-jconnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnect.release.xcconfig"; path = "Target Support Files/Pods-jconnect/Pods-jconnect.release.xcconfig"; sourceTree = "<group>"; };
+		52FEA5212CF4414152F5399F /* libPods-tavivu-tavivuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tavivu-tavivuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-tavivu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivu.release.xcconfig"; path = "Target Support Files/Pods-tavivu/Pods-tavivu.release.xcconfig"; sourceTree = "<group>"; };
 		57A5F3532A7E4C97BB514074 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-jconnect-jconnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnect-jconnectTests.debug.xcconfig"; path = "Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-tavivu-tavivuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivu-tavivuTests.debug.xcconfig"; path = "Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F42C69B43004B1484205309 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		66D5AF55ABE041EDAC609C45 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		6A5E2D2929E943B29EE6F6F8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		719E2BA6F6D3D6A5028D5DFC /* Pods-jconnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnectTests.release.xcconfig"; path = "Target Support Files/Pods-jconnectTests/Pods-jconnectTests.release.xcconfig"; sourceTree = "<group>"; };
-		7DD38CDC2FBA64E940C48E6B /* Pods-jconnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnectTests.debug.xcconfig"; path = "Target Support Files/Pods-jconnectTests/Pods-jconnectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = jconnect/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-jconnect-jconnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jconnect-jconnectTests.release.xcconfig"; path = "Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		719E2BA6F6D3D6A5028D5DFC /* Pods-tavivuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivuTests.release.xcconfig"; path = "Target Support Files/Pods-tavivuTests/Pods-tavivuTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DD38CDC2FBA64E940C48E6B /* Pods-tavivuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivuTests.debug.xcconfig"; path = "Target Support Files/Pods-tavivuTests/Pods-tavivuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tavivu/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-tavivu-tavivuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tavivu-tavivuTests.release.xcconfig"; path = "Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests.release.xcconfig"; sourceTree = "<group>"; };
 		92471F35516A4B069707CA01 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		928FCE49B28B4C8396E34915 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		94714399107D4D798690C9AC /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		C1E9931B57834A868DA2A43C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		C51A759CF94A4E93845A1891 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		CF49E46F8AC9447A8FE3E340 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		D9EE0F5A14429AE3579952E6 /* libPods-jconnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jconnect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EE0F5A14429AE3579952E6 /* libPods-tavivu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tavivu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F31C5B2ED80C471F9CB78F36 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5FF2EEADDADE1C399A39A1 /* libPods-jconnect-jconnectTests.a in Frameworks */,
+				6A5FF2EEADDADE1C399A39A1 /* libPods-tavivu-tavivuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,20 +135,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E21DE993266854818BF3142 /* libPods-jconnect.a in Frameworks */,
+				3E21DE993266854818BF3142 /* libPods-tavivu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* jconnectTests */ = {
+		00E356EF1AD99517003FC87E /* tavivuTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* jconnectTests.m */,
+				00E356F21AD99517003FC87E /* tavivuTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = jconnectTests;
+			path = tavivuTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -159,7 +159,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* jconnect */ = {
+		13B07FAE1A68108700A75B9A /* tavivu */ = {
 			isa = PBXGroup;
 			children = (
 				BC56AC2F285DB5E4006E61A3 /* Fonts */,
@@ -170,15 +170,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = jconnect;
+			name = tavivu;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D9EE0F5A14429AE3579952E6 /* libPods-jconnect.a */,
-				52FEA5212CF4414152F5399F /* libPods-jconnect-jconnectTests.a */,
+				D9EE0F5A14429AE3579952E6 /* libPods-tavivu.a */,
+				52FEA5212CF4414152F5399F /* libPods-tavivu-tavivuTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,9 +229,9 @@
 			isa = PBXGroup;
 			children = (
 				BCD9B97028726894009DC368 /* GoogleService-Info.plist */,
-				13B07FAE1A68108700A75B9A /* jconnect */,
+				13B07FAE1A68108700A75B9A /* tavivu */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* jconnectTests */,
+				00E356EF1AD99517003FC87E /* tavivuTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -245,8 +245,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* jconnect.app */,
-				00E356EE1AD99517003FC87E /* jconnectTests.xctest */,
+				13B07F961A680F5B00A75B9A /* tavivu.app */,
+				00E356EE1AD99517003FC87E /* tavivuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,12 +254,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-jconnect.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-jconnect.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-jconnect-jconnectTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-jconnect-jconnectTests.release.xcconfig */,
-				7DD38CDC2FBA64E940C48E6B /* Pods-jconnectTests.debug.xcconfig */,
-				719E2BA6F6D3D6A5028D5DFC /* Pods-jconnectTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-tavivu.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-tavivu.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-tavivu-tavivuTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-tavivu-tavivuTests.release.xcconfig */,
+				7DD38CDC2FBA64E940C48E6B /* Pods-tavivuTests.debug.xcconfig */,
+				719E2BA6F6D3D6A5028D5DFC /* Pods-tavivuTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -291,9 +291,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* jconnectTests */ = {
+		00E356ED1AD99517003FC87E /* tavivuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "jconnectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tavivuTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -307,14 +307,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = jconnectTests;
-			productName = jconnectTests;
-			productReference = 00E356EE1AD99517003FC87E /* jconnectTests.xctest */;
+			name = tavivuTests;
+			productReference = 00E356EE1AD99517003FC87E /* tavivuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* jconnect */ = {
+		13B07F861A680F5B00A75B9A /* tavivu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jconnect" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tavivu" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -329,9 +328,9 @@
 			);
 			dependencies = (
 			);
-			name = jconnect;
-			productName = jconnect;
-			productReference = 13B07F961A680F5B00A75B9A /* jconnect.app */;
+			name = tavivu;
+			productName = tavivu;
+			productReference = 13B07F961A680F5B00A75B9A /* tavivu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -351,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "jconnect" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tavivu" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -364,8 +363,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* jconnect */,
-				00E356ED1AD99517003FC87E /* jconnectTests */,
+				13B07F861A680F5B00A75B9A /* tavivu */,
+				00E356ED1AD99517003FC87E /* tavivuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -439,15 +438,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3CDD69C6C59C7DDC7C0BC0C8 /* [CP] Embed Pods Frameworks */ = {
@@ -456,15 +455,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		40D6D3FFB6696FDB87DF52B8 /* [CP] Embed Pods Frameworks */ = {
@@ -473,15 +472,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jconnect/Pods-jconnect-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tavivu/Pods-tavivu-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -499,7 +498,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-jconnect-jconnectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-tavivu-tavivuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -512,15 +511,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jconnect-jconnectTests/Pods-jconnect-jconnectTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tavivu-tavivuTests/Pods-tavivu-tavivuTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -538,7 +537,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-jconnect-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-tavivu-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -571,7 +570,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* jconnectTests.m in Sources */,
+				00E356F31AD99517003FC87E /* tavivuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +588,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* jconnect */;
+			target = 13B07F861A680F5B00A75B9A /* tavivu */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -597,14 +596,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-jconnect-jconnectTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-tavivu-tavivuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = jconnectTests/Info.plist;
+				INFOPLIST_FILE = tavivuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,19 +615,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commerce.tavivu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jconnect.app/jconnect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tavivu.app/tavivu";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-jconnect-jconnectTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-tavivu-tavivuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = jconnectTests/Info.plist;
+				INFOPLIST_FILE = tavivuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -640,21 +639,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commerce.tavivu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jconnect.app/jconnect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tavivu.app/tavivu";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-jconnect.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-tavivu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = jconnect/Info.plist;
+				INFOPLIST_FILE = tavivu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = tavivu;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,8 +664,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = jconnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commerce.tavivu;
+				PRODUCT_NAME = tavivu;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-jconnect.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-tavivu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = jconnect/Info.plist;
+				INFOPLIST_FILE = tavivu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = tavivu;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -689,8 +690,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = jconnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commerce.tavivu;
+				PRODUCT_NAME = tavivu;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -834,7 +835,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "jconnectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tavivuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -843,7 +844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jconnect" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tavivu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -852,7 +853,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "jconnect" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tavivu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
